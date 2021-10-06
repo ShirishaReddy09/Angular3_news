@@ -22,10 +22,6 @@ import { DetailsComponent } from './details/details.component';
 
 const routes: Routes =  [
   {
-    path : "whats-new",
-    component : WhatsNewComponent
-  },
-  {
     path : "home",
     component : HomeComponent
   },
