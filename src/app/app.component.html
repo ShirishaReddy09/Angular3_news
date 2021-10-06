@@ -1,0 +1,7 @@
+<div>
+<app-topbar></app-topbar>
+<app-home *ngIf="default_content" (activate)="current_content(false)"></app-home>
+<router-outlet (activate)="current_content(false)"></router-outlet>
+<app-pagination></app-pagination>
+<app-footer></app-footer>
+</div>
